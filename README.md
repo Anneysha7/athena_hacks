@@ -1,9 +1,9 @@
-# Project name
+# WiskiWords
 
-Welcome to our project Words Without Borders (WWB)! This is our entry for the [2023 Athena Hacks Challenge](https://athenahacks2023.devpost.com/). We are participating in the **Best Beginner** and **Best Community Hack sponsored by Meta** categories.
+Welcome to our project Words WiskiWords! This is our entry for the [2023 Athena Hacks Challenge](https://athenahacks2023.devpost.com/). We are participating in the **Best Beginner** and **Best Community Hack sponsored by Meta** categories.
 
 ## What Words Without Borders is about
-WWB generates poems and songs in your target language, as well as provides a translation. Through this project, we hope that people from across the world get to understand different cultural literacies by searching a theme of a song or a poem that they have in mind.
+WiskiWords generates poems and songs in your target language, as well as provides a translation. Through this project, we hope that people from across the world get to understand different cultural literacies by searching a theme of a song or a poem that they have in mind.
   
 ## How to use Words Without Borders
 Very easy! Simply go to <link>, enter a theme in the search bar, select the target language of your poem and a language you wish to see the poem to be translated to. Hit submit, then sit back and enjoy the cultural beauty of the words that appear in front of you.
