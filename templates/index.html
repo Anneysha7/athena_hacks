@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <link rel="stylesheet" href="\static\css\styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&family=Ubuntu&display=swap" rel="stylesheet">
@@ -319,9 +319,9 @@
                 </select>
             </form>
 
-            <button type="submit" id="confirm">
-                Confirm
-            </button>
+            <form id="confirm" action="/generator" method="post">
+                <button type="submit" id="confirm">Confirm</button>
+            </form>
         </div>
 
         <div id="image-text">
@@ -329,14 +329,13 @@
         </div>
 
         <div id="original-text" class="texts">
-            <!-- <h2>Title of the Poem/Song</h2> -->
+            <h3>Original Text</h3>
+            <p>{{answer}}</p>
         </div>
         <div id="translated-text" class="texts">
-            <!-- <h2>Translation to the Language of Choice</h2> -->
+            <h3>Translated Text</h3>
+            <p>{{answer}}</p>
         </div>
 
-        <!-- <p>Here is the poem that was searched based on the theme or country: </p>
-        <p>And its translation to English</p>
-        <p>Here is the image that fits the what lyrics say:</p> -->
     </body>
 </html>
