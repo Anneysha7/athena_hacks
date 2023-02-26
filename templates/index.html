@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <!-- <script src=""></script> -->
+        <title>Project Name</title>
+    </head>
+
+    <body>
+
+        <h1>Project Name</h1>
+        <p id="description">Get to understand different cultural literacies by searching a theme of a song/poem that you have in mind!</p>
+
+        <div id="center">
+            <form role="search" id="theme-search">
+                <input type="search" placeholder="Search for a theme and a language...">
+                <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-list-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <circle cx="15" cy="15" r="4" /> <path d="M18.5 18.5l2.5 2.5" /> <path d="M4 6h16" /> <path d="M4 12h4" /> <path d="M4 18h4" /> </svg>
+                </button>
+            </form>
+
+            <form role="search" id="translate-search">
+                <input type="search" placeholder="Choose a language to translate to...">
+                <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-list-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <circle cx="15" cy="15" r="4" /> <path d="M18.5 18.5l2.5 2.5" /> <path d="M4 6h16" /> <path d="M4 12h4" /> <path d="M4 18h4" /> </svg>
+                </button>
+            </form>
+        </div>
+
+        <div id="image-text">
+            <h2>Image</h2>
+        </div>
+
+        <div id="original-text" class="texts">
+            <!-- <h2>Title of the Poem/Song</h2> -->
+        </div>
+        <div id="translated-text" class="texts">
+            <!-- <h2>Translation to the Language of Choice</h2> -->
+        </div>
+
+        <!-- <p>Here is the poem that was searched based on the theme or country: </p>
+        <p>And its translation to English</p>
+        <p>Here is the image that fits the what lyrics say:</p> -->
+    </body>
+</html>
