@@ -13,12 +13,12 @@ def website():
 @app.route("/", methods = ["GET", "POST"])
 def get_details():
     if request.method == "POST":
-        poem_language = request.form.get("")
-        translation_language = request.form.get("")
-        theme = request.form.get("")
-        type = request.form.get("")
+        poem_language = request.form.get("original-text")
+        translation_language = request.form.get("translated-text")
+        theme = request.form.get("theme-search")
+        # type = request.form.get("")
 
-        prompt = f"{poem_language} {type} based on {theme} with a translation in {translation_language}"
+        prompt = f"{poem_language} based on {theme} with a translation in {translation_language}"
 
         return prompt
     
