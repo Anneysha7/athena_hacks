@@ -33,10 +33,10 @@ Through this project, we learned about the importance of working under pressure 
   
 ## What is next for our project
   
-1. Sharing capability
+1. Sharing capability and accessibility
   
-2. DALL-E 2 Integration
+2. DALL-E 2 Integration and intersectionality with AI tools including ChatGPT
   
-3. 
+3. Implementation
   
   
